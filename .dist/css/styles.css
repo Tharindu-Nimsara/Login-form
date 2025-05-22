@@ -1,0 +1,88 @@
+/* Common styles */
+body {
+    background: #f4f6fb;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container styles */
+.signin-container, .signup-container {
+    background: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    width: 400px;
+}
+
+.signin-container h2, .signup-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #555;
+    font-size: 0.97rem;
+}
+
+/* Input styles */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Button styles */
+.signin-btn, button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.signin-btn:hover, button[type="submit"]:hover {
+    background: #357abd;
+}
+
+/* Link styles */
+.signup-link, .login-link {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 0.97rem;
+}
+
+.signup-link:hover, .login-link:hover {
+    text-decoration: underline;
+}
